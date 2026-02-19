@@ -1,5 +1,5 @@
 //Act2
-mongo my_db script.js
+use my_db
 db.school.insert({
   name: "Holberton school"
 })
