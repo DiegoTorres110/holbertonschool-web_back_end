@@ -1,5 +1,4 @@
 //Act 6
-mongo my_db script.js
 db.school.update(
   {name: "Holberton school"},
   {
@@ -9,3 +8,4 @@ db.school.update(
       }
   }
 )
+mongo my_db script.js
