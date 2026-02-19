@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-#Act8
+"""8-all"""
+
+
 def list_all(mongo_collection):
-    x = mongo_collection.find()
-    if x.count() == 0:
-      return[]
-    else:
-      return x
+    """Lists all documents in a collection"""
+    documents = list(mongo_collection.find())
+    if not documents:
+        return []
+    return documents
+    
