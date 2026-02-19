@@ -5,7 +5,8 @@
 def list_all(mongo_collection):
     """Lists all documents in a collection"""
     documents = list(mongo_collection.find())
-    if not documents:
+    if documents == 0:
         return []
-    return documents
+    else:
+        return documents
     
