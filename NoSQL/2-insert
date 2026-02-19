@@ -1,4 +1,4 @@
 //Act2
 db.posts.insertOne({
-  name: "Holberton school",
+  name: "Holberton school"
 })
