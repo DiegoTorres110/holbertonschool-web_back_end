@@ -1,0 +1,3 @@
+//Act3
+mongo my_db script.js
+db.school.find()
