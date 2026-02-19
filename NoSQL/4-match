@@ -1,0 +1,5 @@
+//Act4
+mongo my_db script.js
+db.school.find({
+  name: "Holberton school"
+})
