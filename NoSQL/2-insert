@@ -1,5 +1,5 @@
 //Act2
 mongo my_db script.js
-db.school.insertOne({
+db.school.insert({
   name: "Holberton school"
 })
