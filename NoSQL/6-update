@@ -1,6 +1,6 @@
 //Act 6
 mongo my_db script.js
-db.school.update(
+db.school.updateOne(
   {name: "Holberton school"},
   {
     $set:
