@@ -1,5 +1,5 @@
 //Act 6
-db.school.updateMany(
+db.school.update(
   {name: "Holberton school"},
   {
     $set:
